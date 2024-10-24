@@ -118,6 +118,8 @@ class Book:
     # Initialize a new Book object.
     # input: the book's authors as a list of strings
     # input: the book's title as a string
+    title = None
+
     def __init__(self, authors: list[str], title: str):
         self.authors = authors
         self.title = title
